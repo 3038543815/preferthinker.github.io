@@ -1,0 +1,16 @@
+    "prefer_attributes": {
+      "Art Styles": "Street Art",
+      "Color": "Desert Rose",
+      "ArtisticMedium": "Woodcut",
+      "Saturation": "Pops of color",
+      "Detail": "Intricate"
+    },
+    "non_prefer_attributes": {
+      "Art Styles": "Cubism",
+      "Color": "Warm Terracotta",
+      "ArtisticMedium": "Charcoal",
+      "Saturation": "Grayscale",
+      "Detail": "Tactile"
+    },
+
+answe gt = Image A

@@ -1,0 +1,19 @@
+
+<visual preference attributes>
+ "Art Styles: Digital Art, 
+Color: Fern Green,
+ ArtisticMedium: Paper Mache, 
+Saturation: Vivid,
+ Detail: Detailed"
+
+</visual preference attributes>
+
+<visual non-preference attributes>
+"Art Styles: Magic Realism,
+ Color: Burgundy Wine, 
+ArtisticMedium: Watercolor, 
+Saturation:Pale, 
+Detail: Rough"
+</visual non-preference attributes>
+
+answer: Image B

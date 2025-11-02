@@ -1,0 +1,17 @@
+print("""<visual preference attributes>
+  "Art Styles": "Indian Art",
+  "Color": "Fern Green",
+  "ArtisticMedium": "Stone Carving",
+  "Saturation": "Muted",
+  "Detail": "Realistic"
+</visual preference attributes>
+
+<visual non-preference attributes>
+  "Art Styles": "Manga",
+  "Color": "Deep Indigo",
+  "ArtisticMedium": "Pastel",
+  "Saturation": "Pastel",
+  "Detail": "Textured"
+</visual non-preference attributes>
+
+answer gt image A
