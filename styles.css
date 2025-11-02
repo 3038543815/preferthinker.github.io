@@ -989,7 +989,7 @@ body {
 
 .modal-image-grid img {
     width: 100%;
-    aspect-ratio: 1;
+    height: 100%;
     object-fit: cover;
     border-radius: 8px;
     transition: all 0.3s ease;
