@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+    background: linear-gradient(135deg, #9DA8B9 0%, #2c3e50 100%);
     min-height: 100vh;
 }
 
@@ -2253,7 +2253,8 @@ body {
 @media (max-width: 768px) {
     .grounded-section,
     .dataset-section,
-    .training-section {
+    .training-section,
+    .acknowledgments-section {
         margin: 4rem 0;
         padding: 3rem 0;
     }
@@ -2268,20 +2269,23 @@ body {
     
     .grounded-section .text-content,
     .dataset-section .text-content,
-    .training-section .text-content {
+    .training-section .text-content,
+    .acknowledgments-section .text-content {
         max-width: 100%;
     }
     
     .grounded-section .text-content h2,
     .dataset-section .text-content h2,
-    .training-section .text-content h2 {
+    .training-section .text-content h2,
+    .acknowledgments-section .text-content h2 {
         font-size: 2.2rem;
         margin-bottom: 1.5rem;
     }
     
     .grounded-section .text-body,
     .dataset-section .text-body,
-    .training-section .text-body {
+    .training-section .text-body,
+    .acknowledgments-section .text-body {
         font-size: 1rem;
         line-height: 1.7;
     }
@@ -2318,5 +2322,124 @@ body {
         font-size: 0.85rem;
         max-width: 100%;
         padding: 0 0.5rem;
+    }
+}
+
+/* Acknowledgments Section 样式 */
+.acknowledgments-section {
+    margin: 6rem 0;
+    padding: 4rem 0;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.acknowledgments-section .text-content {
+    width: 100%;
+    max-width: 900px;
+    padding: 0;
+    text-align: center;
+}
+
+.acknowledgments-section .text-content h2 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, #fff, #3498db);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.acknowledgments-section .text-body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ecf0f1;
+    text-align: left;
+}
+
+.acknowledgments-section .text-body p {
+    margin-bottom: 1.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.acknowledgments-section .text-body p:last-of-type {
+    margin-bottom: 1.5rem;
+}
+
+/* 致谢链接样式 */
+.ack-link {
+    color: #3498db;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+
+.ack-link:hover {
+    color: #5dade2;
+    border-bottom-color: #3498db;
+    text-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+.ack-link::after {
+    content: ' ↗';
+    font-size: 0.9em;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.ack-link:hover::after {
+    opacity: 1;
+}
+
+/* 致谢列表样式 */
+.ack-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.ack-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #ecf0f1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ack-list li::before {
+    content: "✓";
+    color: #2ecc71;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+
+.ack-list li strong {
+    color: #3498db;
+}
+
+/* 响应式设计 - Acknowledgments Section */
+@media (max-width: 768px) {
+    .ack-list li {
+        font-size: 1rem;
+        padding-left: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .ack-list li::before {
+        font-size: 1rem;
     }
 } 
