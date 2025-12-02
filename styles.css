@@ -35,7 +35,7 @@ body {
     margin-bottom: 1.5rem;
     color: #fff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.034);
-    background: linear-gradient(45deg, #ffffff, #f05053);
+    background: linear-gradient(45deg, #f6b8b8, #f05053);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1315,7 +1315,7 @@ body {
     margin-bottom: 1rem;
     font-weight: 600;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.043);
-    background: linear-gradient(45deg, #fff, #f05053);
+    background: linear-gradient(45deg, #f6b8b8, #f05053);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1368,7 +1368,7 @@ body {
     text-align: center;
     margin-bottom: 1rem;
     font-weight: 700;
-    background: linear-gradient(45deg, #fff, #f05053, #9b59b6);
+    background: linear-gradient(45deg, #ffadad, #f05053);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1378,7 +1378,7 @@ body {
 
 .demo-subtitle {
     font-size: 1.3rem;
-    color: #bdc3c7;
+    color: #92979b;
     text-align: center;
     margin-bottom: 3rem;
     opacity: 0.9;
@@ -1956,12 +1956,12 @@ body {
     color: #fff;
     margin-bottom: 2rem;
     font-weight: 700;
-    background: linear-gradient(45deg, #fff, #f05053);
+    background: linear-gradient(45deg, #f6b8b8, #f05053);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0);
     line-height: 1.2;
     text-align: center;
 }
@@ -2045,12 +2045,12 @@ body {
     color: #fff;
     margin-bottom: 2rem;
     font-weight: 700;
-    background: linear-gradient(45deg, #fff, #f05053);
+    background: linear-gradient(45deg, #f6b8b8, #f05053);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0);
     line-height: 1.2;
     text-align: center;
 }
@@ -2163,12 +2163,12 @@ body {
     color: #fff;
     margin-bottom: 2rem;
     font-weight: 700;
-    background: linear-gradient(45deg, #fff, #f05053);
+    background: linear-gradient(45deg, #f6b8b8, #f05053);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0);
     line-height: 1.2;
     text-align: center;
 }
@@ -2347,12 +2347,12 @@ body {
     color: #fff;
     margin-bottom: 2rem;
     font-weight: 700;
-    background: linear-gradient(45deg, #fff, #f05053);
+    background: linear-gradient(45deg, #f6b8b8, #f05053);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0);
     line-height: 1.2;
     text-align: center;
 }
